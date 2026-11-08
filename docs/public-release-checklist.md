@@ -1,6 +1,6 @@
 # Public release checklist — portfolio-sql-performance
 
-**Current status: NOT APPROVED. The repository must stay private.**
+**Current status: APPROVED by the owner on 2026-11-08 for commit `23b747c`. The owner changes the visibility.**
 
 This repository becomes public only after every item below has been verified and the owner has recorded explicit approval. A private repository is not automatically safe to publish: everything in its Git history becomes visible too. Deleting a file in a later commit does not remove it from history.
 
@@ -23,7 +23,7 @@ This repository becomes public only after every item below has been verified and
 - [x] A license for this repository chosen by the owner and added (MIT)
 - [x] Setup instructions tested from a fresh clone on a clean SQL Server instance (fresh clone of the release history on LocalDB 2019: setup, data generator and case 1 equivalence tests pass)
 - [x] Every published metric traceable to a committed benchmark result
-- [ ] Source code reviewed (by the owner)
+- [x] Source code reviewed (by the owner, 2026-11-08)
 - [x] Decision made on whether the Upwork draft documents stay public (moved to private notes; not part of the published history)
 - [x] The published history starts with a single squashed commit of the reviewed tree; development history is not published
 
@@ -31,6 +31,6 @@ This repository becomes public only after every item below has been verified and
 
 | Date | Commit reviewed | Reviewer | Decision |
 |---|---|---|---|
-| | | | |
+| 2026-11-08 | `23b747c` | Owner | Approved for public release |
 
 Only the repository owner changes visibility. Automated agents never do.
