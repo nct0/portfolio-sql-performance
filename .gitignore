@@ -1,0 +1,34 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Secrets and local configuration: never commit
+.env
+.env.*
+!.env.example
+*.local.*
+*.pem
+*.key
+*.pfx
+*.p12
+secrets.json
+credentials.json
+
+# Database files and backups
+*.bak
+*.mdf
+*.ldf
+*.ndf
+*.trn
+
+# Raw benchmark output (commit sanitized summaries in benchmarks/results/)
+benchmarks/runs/
+
+# Private notes
+.private/

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 294" width="760" height="294" role="img" aria-labelledby="t d" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+<title id="t">Case 1: customer lookup by email</title>
+<desc id="d">baseline: 12,312 logical reads; index-only: 1,188 logical reads; parameter-only: 11,065 logical reads; optimized: 6 logical reads</desc>
+<style>.bg{fill:#fcfcfb}.ink{fill:#0b0b0b}.ink2{fill:#52514e}.bar{fill:#2a78d6}.grid{stroke:#e1e0d9}@media (prefers-color-scheme: dark){.bg{fill:#1a1a19}.ink{fill:#f0efec}.ink2{fill:#c3c2b7}.bar{fill:#3987e5}.grid{stroke:#2c2c2a}}</style>
+<rect class="bg" width="760" height="294" rx="8"/>
+<text class="ink" x="24" y="34" font-size="18" font-weight="600">Case 1: customer lookup by email</text>
+<text class="ink2" x="24" y="56" font-size="13">Logical reads per execution, median of the measured runs. Lower is better.</text>
+<line class="grid" x1="150" y1="66" x2="150" y2="274" stroke-width="1"/>
+<text class="ink2" x="138" y="94.0" font-size="14" text-anchor="end">baseline</text>
+<rect class="bar" x="150" y="74" width="520.0" height="30" rx="4"/>
+<text class="ink" x="678.0" y="94.0" font-size="14" font-weight="600">12,312</text>
+<text class="ink2" x="138" y="142.0" font-size="14" text-anchor="end">index-only</text>
+<rect class="bar" x="150" y="122" width="50.2" height="30" rx="4"/>
+<text class="ink" x="208.2" y="142.0" font-size="14" font-weight="600">1,188</text>
+<text class="ink2" x="138" y="190.0" font-size="14" text-anchor="end">parameter-only</text>
+<rect class="bar" x="150" y="170" width="467.3" height="30" rx="4"/>
+<text class="ink" x="625.3" y="190.0" font-size="14" font-weight="600">11,065</text>
+<text class="ink2" x="138" y="238.0" font-size="14" text-anchor="end">optimized</text>
+<text class="ink" x="158.3" y="238.0" font-size="14" font-weight="600">6</text>
+</svg>

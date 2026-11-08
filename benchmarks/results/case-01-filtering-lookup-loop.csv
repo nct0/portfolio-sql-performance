@@ -1,0 +1,13 @@
+variant,loop,executions,total_us,mean_us
+baseline,1,11,2014194,183108
+baseline,2,11,2061052,187368
+baseline,3,12,2094649,174554
+index-only,1,19,2043628,107559
+index-only,2,17,2025169,119127
+index-only,3,18,2025136,112507
+parameter-only,1,14,2042936,145924
+parameter-only,2,13,2005862,154297
+parameter-only,3,13,2093807,161062
+optimized,1,10104,1999695,197
+optimized,2,9736,2003048,205
+optimized,3,10232,2001638,195
