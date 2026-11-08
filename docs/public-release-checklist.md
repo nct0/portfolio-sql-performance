@@ -6,7 +6,7 @@ This repository becomes public only after every item below has been verified and
 
 ## Automated checks
 
-- [x] `bash scripts/check-public-safety.sh --history` reports no findings (2026-11-08; the optional private denylist is not configured yet)
+- [x] `bash scripts/check-public-safety.sh --history` reports no findings (2026-11-08, with the private denylist loaded)
 - [x] All commit authors and committers use GitHub noreply addresses (part of the scan above)
 - [x] The public-safety CI workflow is green on `main`
 
