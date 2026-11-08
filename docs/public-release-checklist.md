@@ -1,6 +1,6 @@
 # Public release checklist — portfolio-sql-performance
 
-**Current status: APPROVED by the owner on 2026-11-08 for commit `23b747c`. The owner changes the visibility.**
+**Current status: APPROVED by the owner on 2026-11-08 for commit `23b747c`. Public since 2026-11-08 (changed by the owner).**
 
 This repository becomes public only after every item below has been verified and the owner has recorded explicit approval. A private repository is not automatically safe to publish: everything in its Git history becomes visible too. Deleting a file in a later commit does not remove it from history.
 
